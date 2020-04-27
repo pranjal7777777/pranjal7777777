@@ -14,15 +14,17 @@ function msg()
     }
     else if(userid.value.trim().length<7)
     {
-        alert("incorrect username")
+        alert("incorrect username");
+        userid.style.border ="solid 2px red";
     }
     else if(pas.value.trim().length<5)
     {
-        alert("incorrect password")
+        alert("incorrect password");
+        pas.style.border ="solid 2px red";
     }
     else if(userid.value.trim().length>=7||pas.value.trim().length>=5)
     {
-        alert("login sucessfull")
+        alert("login sucessfull");
     }
     else
     {
