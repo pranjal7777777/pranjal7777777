@@ -57,10 +57,18 @@ nav
       text-align: left;
       
   }
-  .box1 video
+  .box1 h2{
+    margin-left: 170px;
+  }
+  .box1
   {
-      height: 290px;
-      position: relative;
-      float: right;
-      margin-top: -120px;
+    font-size: x-large;
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+  .box1 iframe
+  {
+    margin-top: -200px;
+    margin-left: 900px;
+    position: relative;
   }
